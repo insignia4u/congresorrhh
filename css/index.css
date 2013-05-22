@@ -632,29 +632,27 @@
 
 #principal{
    background: url('img/backgrounds/fondoslide.png');
-
-
 }
 
 #secundario{
   background-color:white;
-
 }
-#boton{ 
-background:-moz-linear-gradient(#fc0 0%,#F60 100%); 
-background:-ms-linear-gradient(#fc0 0%,#F60 100%);
-background:-o-linear-gradient(#fc0 0%,#F60 100%); 
-background:-webkit-linear-gradient(#fc0 0%,#F60 100%);
-background:linear-gradient(#fc0 0%,#F60 100%);
-border:solid 1px #DEDEDE; 
-border-radius:5px;
-text-align:center;
-padding:5px; 
-color:#fff;
- width:100px;
-display:inline-block;
-} 
-#boton:hover{
+#boton > center > a {
+    background:-moz-linear-gradient(#fc0 0%,#F60 100%); 
+    background:-ms-linear-gradient(#fc0 0%,#F60 100%);
+    background:-o-linear-gradient(#fc0 0%,#F60 100%); 
+    background:-webkit-linear-gradient(#fc0 0%,#F60 100%);
+    background:linear-gradient(#fc0 0%,#F60 100%);
+    border:solid 1px #DEDEDE; 
+    border-radius:5px;
+    text-align:center;
+    padding:7px 12px; 
+    color:#fff;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+#boton > center > a:hover{
 background:-moz-linear-gradient(#fff 0%,#DEDEDE 100%);
 color:#999; 
 }
